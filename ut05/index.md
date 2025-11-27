@@ -8,3 +8,5 @@
 
 ### [Pr0503 - Aplicación de GPOs y Seguridad](pr0503/pr0503.md)
 
+### [Pr0504 - Directivas de seguridad, GPP y Filtros WMI](pr0504/pr0504.md)
+
