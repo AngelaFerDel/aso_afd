@@ -8,4 +8,4 @@
 
 ### [UT05 - Servicio de directorio en Windows Server](ut05/index.md)
 
-### [UT06 - Lenguaje de scripting en Windows. Powershel](ut06/index.md)
+### [UT06 - Lenguaje de scripting en Windows. Powershell](ut06/index.md)
