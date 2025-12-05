@@ -7,3 +7,5 @@
 ### [UT03 - Lenguajes de scripting en Linux: Bash](ut03/index.md)
 
 ### [UT05 - Servicio de directorio en Windows Server](ut05/index.md)
+
+### [UT06 - Lenguaje de scripting en Windows. Powershel](ut06/index.md)
