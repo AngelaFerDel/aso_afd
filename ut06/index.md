@@ -9,3 +9,5 @@
 ### [Pr0603 - Manipulación de cadenas](pr0603/pr0603.md)
 
 ### [Pr0604 - Manipulación de colecciones](pr0604/pr0604.md)
+
+### [Pr0605 - Limpieza de logs](pr0605/pr0605.md)
