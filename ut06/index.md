@@ -11,3 +11,5 @@
 ### [Pr0604 - Manipulación de colecciones](pr0604/pr0604.md)
 
 ### [Pr0605 - Limpieza de logs](pr0605/pr0605.md)
+
+### [Pr0606 - Limpieza de logs (II)](pr0606/pr0606.md)
