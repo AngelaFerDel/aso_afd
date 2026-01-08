@@ -50,6 +50,6 @@ $objetos = foreach ( $linea in $movimientosCrudos){
     }
 }
 
-$objetos | Export-Csv -Path "reporte.csv"
+$objetos | Export-Csv -Path "reporte_inventario.csv"
 $objetos | Format-Table -AutoSize
 
