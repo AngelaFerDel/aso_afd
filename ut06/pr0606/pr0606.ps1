@@ -1,29 +1,3 @@
-#### [Volver a Unidad 6](../index.md)
-
-------------
-
-# Unidad 6 - Práctica 6: Limpieza de logs (II).
-
-Se pide realizar un script que de formato a una serie de logs.
-
-Para ello creamos un script y lo guardamos con extensión .ps1
-
-Se ejecuta desde línea de comandos para comprobar que funciona.
-
-## Datos de entrada
-
-```
-$movimientosCrudos = @"
-[LOG-OK] SKU:A199 :: 2024.01.10_08:00 :: Item:Smartphone_X :: Qty:50 :: Status:In_Stock
-[LOG-ALERT] SKU:B250 :: 10-01-2024 09:15 :: Item:LAPTOP-PRO :: Qty:-5 :: Status:Damaged
-[LOG-OK] SKU:C312 :: 2024/01/10_10:30 :: Item:tablet_air :: Qty:120 :: Status:In_Stock
-[LOG-CRIT] SKU:D400 :: 11/01/2024_11:45 :: Item:UNKNOWN_ITEM :: Qty:0 :: Status:Out_Of_Order
-"@
-```
-
-## Script
-
-```
 $movimientosCrudos = @"
 [LOG-OK] SKU:A199 :: 2024.01.10_08:00 :: Item:Smartphone_X :: Qty:50 :: Status:In_Stock
 [LOG-ALERT] SKU:B250 :: 10-01-2024 09:15 :: Item:LAPTOP-PRO :: Qty:-5 :: Status:Damaged
@@ -78,12 +52,4 @@ $objetos = foreach ( $linea in $movimientosCrudos){
 
 $objetos | Export-Csv -Path "reporte.csv"
 $objetos | Format-Table -AutoSize
-```
 
-## Comprobación de la ejecución
-
-![Captura](pr0606_Capturas/pr0606_1.png)
-
-------------
-
-#### [Volver a Unidad 6](../index.md)
