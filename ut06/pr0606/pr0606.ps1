@@ -22,7 +22,7 @@ $objetos = foreach ( $linea in $movimientosCrudos){
     $timeStamp = (Get-Date $fechaLimpia).ToString("dd/MM/yyyy HH:mm")
 
     #Seleccionamos los items
-    $item = $partes[2].Split(':')[1].Trim()
+    $item = $partes[2].Split(':')[1].Trim().ToUpper()
     #Si el item es unknown le colocamos un valor diferente
     if ( $item -eq "UNKNOWN_ITEM" ) { $item = "PENDING_REVIEW" }
 
