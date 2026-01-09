@@ -13,3 +13,5 @@
 ### [Pr0605 - Limpieza de logs](pr0605/pr0605.md)
 
 ### [Pr0606 - Limpieza de logs (II)](pr0606/pr0606.md)
+
+### [Pr0607 - Limpieza de datos de usuarios](pr0607/pr0607.md)
