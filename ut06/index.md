@@ -15,3 +15,5 @@
 ### [Pr0606 - Limpieza de logs (II)](pr0606/pr0606.md)
 
 ### [Pr0607 - Limpieza de datos de usuarios](pr0607/pr0607.md)
+
+### [Pr0608 - Comparación de listas](pr0608/pr0608.md)
