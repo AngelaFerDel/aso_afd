@@ -22,16 +22,16 @@ foreach ($datoInstalado in $kbsInstalados) {
 
 $porcentaje = (100 * ($kbsRequeridos.Length - $kbsFaltantes.Length) / $kbsRequeridos.Length).ToString() + "%"
 
-"=== AUDITORIA DE SEGURIDAD ==="
-"Total Requeridos: $($kbsRequeridos.Length)"
-"Total Instalados: $($kbsInstalados.Length)"
-""
-"ESTADO DE CUMPLIMIENTO: $porcentaje"
-""
-
-"[URGENTE] Parches Faltantes:"
-($kbsFaltantes -join ", ")
-
-""
-"[INFO] Parches 'Extra' instalados (No criticos):"
-($kbsExtra -join " - ")
+Write-Host "=== AUDITORIA DE SEGURIDAD ==="
+Write-Host "Total Requeridos: $($kbsRequeridos.Length)"
+Write-Host "Total Instalados: $($kbsInstalados.Length)"
+Write-Host ""
+Write-Host "ESTADO DE CUMPLIMIENTO: $porcentaje"
+Write-Host ""
+Write-Host 
+Write-Host "[URGENTE] Parches Faltantes:"
+Write-Host ($kbsFaltantes -join ", ")
+Write-Host 
+Write-Host ""
+Write-Host "[INFO] Parches 'Extra' instalados (No criticos):"
+Write-Host ($kbsExtra -join " - ")
